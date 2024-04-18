@@ -17,7 +17,27 @@
       "isDefault": false
     },
     {
-      "id": "Page2",
+      "id": "Products by type",
+      "isDefault": false
+    },
+    {
+      "id": "Product Entry Update",
+      "isDefault": false
+    },
+    {
+      "id": "Tutorial Page",
+      "isDefault": false
+    },
+    {
+      "id": "Notifications",
+      "isDefault": false
+    },
+    {
+      "id": "Make Notifications ",
+      "isDefault": false
+    },
+    {
+      "id": "Home Page",
       "isDefault": false
     }
   ],
