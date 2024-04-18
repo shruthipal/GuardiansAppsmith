@@ -12,7 +12,7 @@
         "notification"
     ],
     "topRow": 0,
-    "bottomRow": 650,
+    "bottomRow": 65,
     "parentRowSpace": 1,
     "type": "MODAL_WIDGET",
     "hideCard": false,
