@@ -1,6 +1,6 @@
 {
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "borderColor": "#E0DEDE",
+    "borderColor": "#1e3a8a",
     "isVisibleDownload": true,
     "iconSVG": "/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
     "topRow": 10,
@@ -10,7 +10,6 @@
     "animateLoading": true,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"},
         {"key": "boxShadow"},
         {"key": "tableData"},
         {"key": "primaryColumns.brandID.computedValue"},
@@ -59,8 +58,9 @@
             "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}"
         }
     },
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713385125353,
+    "borderRadius": "1.5rem",
+    "columnUpdatedAt": 1713397514350,
+    "originalBottomRow": 62,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 38,
@@ -68,22 +68,23 @@
     "defaultPageSize": 0,
     "columnOrder": [
         "name",
-        "brandID",
-        "cost",
-        "productID",
         "productType",
-        "tutorial"
+        "cost",
+        "tutorial",
+        "brandID",
+        "productID"
     ],
     "dynamicPropertyPathList": [],
+    "compactMode": "TALL",
     "displayName": "Table",
-    "bottomRow": 42,
+    "bottomRow": 62,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
     "mobileRightColumn": 37,
     "parentColumnSpace": 11.890625,
     "dynamicTriggerPathList": [],
-    "borderWidth": "1",
+    "borderWidth": "3",
     "primaryColumns": {
         "cost": {
             "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( '$' + currentRow[\"cost\"]))}}",
@@ -108,7 +109,7 @@
             "textColor": "",
             "columnType": "number",
             "thousandSeparator": true,
-            "horizontalAlignment": "LEFT",
+            "horizontalAlignment": "CENTER",
             "isCellEditable": false,
             "decimals": 0,
             "width": 150,
@@ -116,7 +117,7 @@
             "sticky": "",
             "originalId": "cost",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#93c5fd",
             "verticalAlignment": "CENTER"
         },
         "productID": {
@@ -142,7 +143,7 @@
             "textColor": "",
             "columnType": "number",
             "thousandSeparator": true,
-            "horizontalAlignment": "LEFT",
+            "horizontalAlignment": "CENTER",
             "isCellEditable": false,
             "decimals": 0,
             "width": 150,
@@ -150,7 +151,7 @@
             "sticky": "",
             "originalId": "productID",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#93c5fd",
             "verticalAlignment": "CENTER"
         },
         "brandID": {
@@ -176,7 +177,7 @@
             "textColor": "",
             "columnType": "number",
             "thousandSeparator": true,
-            "horizontalAlignment": "LEFT",
+            "horizontalAlignment": "CENTER",
             "isCellEditable": false,
             "decimals": 0,
             "width": 150,
@@ -184,7 +185,7 @@
             "sticky": "",
             "originalId": "brandID",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#93c5fd",
             "verticalAlignment": "CENTER"
         },
         "name": {
@@ -210,7 +211,7 @@
             "textColor": "",
             "columnType": "text",
             "thousandSeparator": true,
-            "horizontalAlignment": "LEFT",
+            "horizontalAlignment": "CENTER",
             "isCellEditable": false,
             "decimals": 0,
             "width": 150,
@@ -218,7 +219,7 @@
             "sticky": "",
             "originalId": "name",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#93c5fd",
             "verticalAlignment": "CENTER"
         },
         "tutorial": {
@@ -244,7 +245,7 @@
             "textColor": "",
             "columnType": "text",
             "thousandSeparator": true,
-            "horizontalAlignment": "LEFT",
+            "horizontalAlignment": "CENTER",
             "isCellEditable": false,
             "decimals": 0,
             "width": 150,
@@ -252,7 +253,7 @@
             "sticky": "",
             "originalId": "tutorial",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#93c5fd",
             "verticalAlignment": "CENTER"
         },
         "productType": {
@@ -273,12 +274,12 @@
             "index": 4,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "productType",
+            "label": "Product Type",
             "fontStyle": "",
             "textColor": "",
             "columnType": "text",
             "thousandSeparator": true,
-            "horizontalAlignment": "LEFT",
+            "horizontalAlignment": "CENTER",
             "isCellEditable": false,
             "decimals": 0,
             "width": 150,
@@ -286,7 +287,7 @@
             "sticky": "",
             "originalId": "productType",
             "currencyCode": "USD",
-            "cellBackground": "",
+            "cellBackground": "#93c5fd",
             "verticalAlignment": "CENTER"
         }
     },
@@ -304,10 +305,12 @@
     "serverSidePaginationEnabled": true,
     "renderMode": "CANVAS",
     "mobileTopRow": 10,
-    "horizontalAlignment": "LEFT",
+    "horizontalAlignment": "CENTER",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
+    "originalTopRow": 10,
     "mobileLeftColumn": 3,
     "isVisiblePagination": true,
+    "cellBackground": "#93c5fd",
     "verticalAlignment": "CENTER"
 }

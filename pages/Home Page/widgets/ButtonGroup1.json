@@ -1,0 +1,80 @@
+{
+    "needsErrorInfo": false,
+    "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
+    "mobileBottomRow": 37,
+    "widgetName": "ButtonGroup1",
+    "isCanvas": false,
+    "displayName": "Button Group",
+    "iconSVG": "/static/media/icon.bb8db4853027d74a78963c3375841e4b.svg",
+    "searchTags": [
+        "click",
+        "submit"
+    ],
+    "topRow": 23,
+    "bottomRow": 47,
+    "parentRowSpace": 10,
+    "type": "BUTTON_GROUP_WIDGET",
+    "groupButtons": {
+        "groupButton1": {
+            "onClick": "{{showModal('Modal1');}}",
+            "buttonType": "SIMPLE",
+            "iconName": "heart",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "widgetId": "",
+            "menuItems": {},
+            "index": 0,
+            "label": "Customer",
+            "id": "groupButton1",
+            "placement": "CENTER",
+            "isVisible": true,
+            "isDisabled": false
+        },
+        "groupButton2": {
+            "onClick": "{{showModal('Modal2');}}",
+            "buttonType": "SIMPLE",
+            "iconName": "add",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "widgetId": "",
+            "menuItems": {},
+            "index": 1,
+            "label": "Vendor",
+            "id": "groupButton2",
+            "placement": "CENTER",
+            "isVisible": true,
+            "isDisabled": false
+        }
+    },
+    "hideCard": false,
+    "mobileRightColumn": 43,
+    "animateLoading": true,
+    "parentColumnSpace": 11.984375,
+    "dynamicTriggerPathList": [
+        {"key": "groupButtons.groupButton1.onClick"},
+        {"key": "groupButtons.groupButton2.onClick"}
+    ],
+    "leftColumn": 7,
+    "dynamicBindingPathList": [
+        {"key": "groupButtons.groupButton1.buttonColor"},
+        {"key": "groupButtons.groupButton2.buttonColor"}
+    ],
+    "key": "mteao5diw0",
+    "orientation": "horizontal",
+    "isDeprecated": false,
+    "rightColumn": 56,
+    "widgetId": "cg36372kc8",
+    "minWidth": 450,
+    "isVisible": true,
+    "version": 1,
+    "parentId": "0",
+    "tags": ["Buttons"],
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "mobileTopRow": 33,
+    "responsiveBehavior": "fill",
+    "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
+    "originalTopRow": 23,
+    "borderRadius": "1.5rem",
+    "mobileLeftColumn": 19,
+    "originalBottomRow": 47,
+    "buttonVariant": "SECONDARY"
+}
