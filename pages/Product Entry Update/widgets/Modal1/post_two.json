@@ -2,7 +2,7 @@
     "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
     "borderColor": "#1e3a8a",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{post_product.run()}}",
+    "onSubmit": "{{post_product.run().then(() => {\n  get_produtcs.run();\n});}}",
     "topRow": 0,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
